@@ -22,7 +22,11 @@ Next, refactor the package's name to your liking
 Finally, change `fabric.mod.json`'s content as follows:
 
 line 6: "Example Mod" to your mod name.
+
 line 7: "This is an example description! Tell everyone what your mod is about!" to your description.
+
 line 9: "Me!" to your name/nickname.
+
 line 17: `assets/modid` to `assets/` and your modid.
+
 line 22: `net.fabricmc.example.ExampleMod` to your package and "." and your main class name.
