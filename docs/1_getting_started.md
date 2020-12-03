@@ -18,7 +18,9 @@ Open IntelliJ and click File-->Open or click "Open or Import".
 This will bring up a file explorer. Open the folder of your mod, then double-click `build.gradle` and click `Open as Project`.
 
 Once you are in the project, navigate to `ExampleMod.java` and rename it to whatever you'd like. Also delete the `mixin` folder.
-Next, refactor the package's name to your liking
+Next, refactor the package's name to your liking.
+After that, click the command button and type `gradlew genSources` and then press enter. You should be able to run your mod from now on.
+
 Finally, change `fabric.mod.json`'s content as follows:
 
 line 6: "Example Mod" to your mod name.
